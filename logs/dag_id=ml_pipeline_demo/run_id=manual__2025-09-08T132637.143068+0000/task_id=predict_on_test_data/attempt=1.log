@@ -1,0 +1,16 @@
+{"timestamp":"2025-09-08T13:28:32.659230","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-08T13:28:32.661022","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-08T13:28:34.482719Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:34.484316Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:34.486871Z","level":"info","event":"Current task name:predict_on_test_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:34.488566Z","level":"info","event":"Dag name:ml_pipeline_demo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:34.490189Z","level":"info","event":"---- Inside predict_on_test_data component ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:34.522575Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:34.526664Z","level":"info","event":"---- Predicted classes ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:34.528505Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:34.529276Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:34.533704Z","level":"info","event":"[3 2 0 ... 1 3 0]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:34.523543","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-08T13:28:34.561403Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:34.562926Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:34.564388Z","level":"info","event":"Task operator:<Task(PythonOperator): predict_on_test_data>","chan":"stdout","logger":"task"}

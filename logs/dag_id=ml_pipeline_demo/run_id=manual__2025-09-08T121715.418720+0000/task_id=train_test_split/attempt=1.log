@@ -1,0 +1,45 @@
+{"timestamp":"2025-09-08T12:17:40.048378","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-08T12:17:40.049314","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-08T12:17:42.574648Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.576215Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.577181Z","level":"info","event":"Current task name:train_test_split","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.577808Z","level":"info","event":"Dag name:ml_pipeline_demo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.578862Z","level":"info","event":"---- Inside train_test_split component ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.808707Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.810595Z","level":"info","event":"---- X_train ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.811884Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.812610Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.813162Z","level":"info","event":"[[3032 3046 25 ... 4.14407312709878 0.0190545935727788 'apple watch']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.813672Z","level":"info","event":" [4763 1119 27 ... 2.89350322251257 8.3653440351133 'fitbit']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.814152Z","level":"info","event":" [1367 1367 18 ... 15.3125906158861 37.6361266666667 'apple watch']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.814635Z","level":"info","event":" ...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.815316Z","level":"info","event":" [5187 1959 19 ... 3.25490845117054 154.9945570133 'fitbit']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.818522Z","level":"info","event":" [5219 1991 19 ... 3.12723418641855 56.3421396030311 'fitbit']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.819122Z","level":"info","event":" [4133 489 20 ... 0.0714234529901428 71.9598448753463 'fitbit']]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.819519Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.819886Z","level":"info","event":"---- X_test ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.820405Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.820974Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.821864Z","level":"info","event":"[[3848 204 24 ... 0.074399430198066 53.5167359187442 'fitbit']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.824626Z","level":"info","event":" [1825 1829 18 ... 4.75574178123741 4.37913 'apple watch']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.826412Z","level":"info","event":" [2483 2497 56 ... 6.51635102552269 0.0180216257088847 'apple watch']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.829206Z","level":"info","event":" ...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.834961Z","level":"info","event":" [1163 1163 25 ... 0.980182694891456 0.248830484444594 'apple watch']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.838021Z","level":"info","event":" [1784 1788 37 ... 15.204473127551 14.36673 'apple watch']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.839190Z","level":"info","event":" [5690 2888 25 ... 2.62819846501244 38.5789193433788 'fitbit']]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.839841Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.840362Z","level":"info","event":"---- y_train ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.840840Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.841417Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.841859Z","level":"info","event":"['Running 5 METs' 'Running 7 METs' 'Self Pace walk' ... 'Lying'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.842380Z","level":"info","event":" 'Running 3 METs' 'Running 5 METs']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.842880Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.843704Z","level":"info","event":"---- y_test ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.846501Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.847226Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.847651Z","level":"info","event":"['Sitting' 'Running 3 METs' 'Self Pace walk' ... 'Running 3 METs'","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.848126Z","level":"info","event":" 'Running 7 METs' 'Lying']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.816125","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-08T12:17:42.876563Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.877322Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:42.881796Z","level":"info","event":"Task operator:<Task(PythonOperator): train_test_split>","chan":"stdout","logger":"task"}

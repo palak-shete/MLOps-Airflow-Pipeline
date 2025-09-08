@@ -1,0 +1,26 @@
+{"timestamp":"2025-09-08T13:28:39.584520","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-08T13:28:39.585924","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-08T13:28:41.298734Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.309340Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.311845Z","level":"info","event":"Current task name:get_metrics","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.318449Z","level":"info","event":"Dag name:ml_pipeline_demo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.321171Z","level":"info","event":"---- Inside get_metrics component ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.441628Z","level":"info","event":"              precision    recall  f1-score   support","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.444260Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.444986Z","level":"info","event":"           0       0.34      0.67      0.45       414","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.445585Z","level":"info","event":"           1       0.26      0.29      0.27       285","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.446271Z","level":"info","event":"           2       0.28      0.28      0.28       301","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.449738Z","level":"info","event":"           3       0.44      0.34      0.38       334","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.451536Z","level":"info","event":"           4       0.27      0.10      0.15       267","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.452826Z","level":"info","event":"           5       0.14      0.04      0.06       279","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.454274Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.455424Z","level":"info","event":"    accuracy                           0.32      1880","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.456892Z","level":"info","event":"   macro avg       0.29      0.29      0.27      1880","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.458773Z","level":"info","event":"weighted avg       0.30      0.32      0.28      1880","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.460428Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.461140Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.461823Z","level":"info","event":" Model Metrics: {'accuracy': 0.32, 'precision': 0.32, 'recall': 0.32, 'log_loss': 1.61}","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.442329","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-08T13:28:41.490861Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.492428Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:41.493483Z","level":"info","event":"Task operator:<Task(PythonOperator): get_metrics>","chan":"stdout","logger":"task"}

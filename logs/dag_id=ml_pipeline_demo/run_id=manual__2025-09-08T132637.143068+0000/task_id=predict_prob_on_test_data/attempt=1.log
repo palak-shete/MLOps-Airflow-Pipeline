@@ -1,0 +1,22 @@
+{"timestamp":"2025-09-08T13:28:35.793692","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-08T13:28:35.794985","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-08T13:28:37.378439Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.383332Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.384235Z","level":"info","event":"Current task name:predict_prob_on_test_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.385134Z","level":"info","event":"Dag name:ml_pipeline_demo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.385813Z","level":"info","event":"---- Inside predict_prob_on_test_data component ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.422309Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.425243Z","level":"info","event":"---- Predicted probabilities ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.427270Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.428323Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.429285Z","level":"info","event":"[[0.1771225  0.18031538 0.10301392 0.21378315 0.16525009 0.16051497]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.430471Z","level":"info","event":" [0.18490886 0.19945293 0.20042378 0.11443028 0.15902506 0.14175908]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.431602Z","level":"info","event":" [0.31451711 0.13777914 0.107974   0.09156625 0.18783239 0.16033111]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.432187Z","level":"info","event":" ...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.432793Z","level":"info","event":" [0.14951507 0.22467861 0.20132944 0.08937182 0.21029382 0.12481124]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.433548Z","level":"info","event":" [0.17077274 0.09677783 0.22210812 0.28335506 0.08670164 0.14028461]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.434263Z","level":"info","event":" [0.29268323 0.09509194 0.06097239 0.23995079 0.08411632 0.22718533]]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.423599","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-08T13:28:37.460388Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.461746Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:37.462799Z","level":"info","event":"Task operator:<Task(PythonOperator): predict_prob_on_test_data>","chan":"stdout","logger":"task"}

@@ -1,0 +1,43 @@
+{"timestamp":"2025-09-08T13:12:13.136855","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-08T13:12:13.137918","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-08T13:12:15.954460Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:15.956298Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:15.957151Z","level":"info","event":"Current task name:train_test_split","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:15.963711Z","level":"info","event":"Dag name:ml_pipeline_demo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:15.970887Z","level":"info","event":"---- Inside train_test_split component ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.296393Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.297234Z","level":"info","event":"---- X_train ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.298174Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.303952Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.305358Z","level":"info","event":"[[3032 3046 25 ... 4.14407312709878 0.0190545935727788 'apple watch']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.309509Z","level":"info","event":" [4763 1119 27 ... 2.89350322251257 8.3653440351133 'fitbit']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.312700Z","level":"info","event":" [1367 1367 18 ... 15.3125906158861 37.6361266666667 'apple watch']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.318084Z","level":"info","event":" ...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.319138Z","level":"info","event":" [5187 1959 19 ... 3.25490845117054 154.9945570133 'fitbit']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.321697Z","level":"info","event":" [5219 1991 19 ... 3.12723418641855 56.3421396030311 'fitbit']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.323008Z","level":"info","event":" [4133 489 20 ... 0.0714234529901428 71.9598448753463 'fitbit']]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.323755Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.324460Z","level":"info","event":"---- X_test ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.325167Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.326320Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.329598Z","level":"info","event":"[[3848 204 24 ... 0.074399430198066 53.5167359187442 'fitbit']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.330539Z","level":"info","event":" [1825 1829 18 ... 4.75574178123741 4.37913 'apple watch']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.331625Z","level":"info","event":" [2483 2497 56 ... 6.51635102552269 0.0180216257088847 'apple watch']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.332525Z","level":"info","event":" ...","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.333398Z","level":"info","event":" [1163 1163 25 ... 0.980182694891456 0.248830484444594 'apple watch']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.334259Z","level":"info","event":" [1784 1788 37 ... 15.204473127551 14.36673 'apple watch']","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.334945Z","level":"info","event":" [5690 2888 25 ... 2.62819846501244 38.5789193433788 'fitbit']]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.335912Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.336477Z","level":"info","event":"---- y_train ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.337040Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.337639Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.338183Z","level":"info","event":"[2 3 4 ... 0 1 2]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.338792Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.339264Z","level":"info","event":"---- y_test ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.339723Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.340517Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.341485Z","level":"info","event":"[5 1 4 ... 1 3 0]","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.303437","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-08T13:12:16.390285Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.393303Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:12:16.398701Z","level":"info","event":"Task operator:<Task(PythonOperator): train_test_split>","chan":"stdout","logger":"task"}

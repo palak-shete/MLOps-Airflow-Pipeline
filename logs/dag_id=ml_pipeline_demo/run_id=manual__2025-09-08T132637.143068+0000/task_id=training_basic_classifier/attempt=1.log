@@ -1,0 +1,15 @@
+{"timestamp":"2025-09-08T13:26:48.450417","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-08T13:26:48.451527","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-08T13:26:49.936623Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:26:49.938248Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:26:49.939543Z","level":"info","event":"Current task name:training_basic_classifier","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:26:49.941062Z","level":"info","event":"Dag name:ml_pipeline_demo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:26:49.947546Z","level":"info","event":"---- Inside training_basic_classifier component ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:31.007305","level":"warning","event":"/home/airflow/.local/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:473: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):\nSTOP: TOTAL NO. OF ITERATIONS REACHED LIMIT\n\nIncrease the number of iterations to improve the convergence (max_iter=1000).\nYou might also want to scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html\nPlease also refer to the documentation for alternative solver options:\n    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression\n  n_iter_i = _check_optimize_result(\n","logger":"py.warnings"}
+{"timestamp":"2025-09-08T13:28:31.033375Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:31.036368Z","level":"info","event":" logistic regression classifier is trained on health activity dataset and saved to PV location /opt/airflow/data/model.pkl","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:31.055250Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:31.033809","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-08T13:28:31.107186Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:31.109678Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T13:28:31.110432Z","level":"info","event":"Task operator:<Task(PythonOperator): training_basic_classifier>","chan":"stdout","logger":"task"}

@@ -1,0 +1,11 @@
+{"timestamp":"2025-09-08T12:17:24.093114","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-09-08T12:17:24.094958","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/ml_pipeline.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-09-08T12:17:28.986532Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:28.987921Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:28.988755Z","level":"info","event":"Current task name:prepare_data","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:28.989730Z","level":"info","event":"Dag name:ml_pipeline_demo","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:28.993501Z","level":"info","event":"---- Inside prepare_data component ----","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:37.503893","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-09-08T12:17:37.910784Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:37.913197Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-09-08T12:17:37.915341Z","level":"info","event":"Task operator:<Task(PythonOperator): prepare_data>","chan":"stdout","logger":"task"}
