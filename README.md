@@ -60,3 +60,8 @@ This is my little adventure into the world of MLOps + Airflow + Docker. Basicall
 
 I’m Palak ✨ a final year B.Tech student who loves mixing AI/ML with real-world fun stuff 💻💡.
 This project was my first step into the MLOps world, and trust me—it was chaotic, but I survived 😅.
+<img width="1920" height="1080" alt="SuccessfulProject2" src="https://github.com/user-attachments/assets/1e4cad82-91a8-4557-a94f-90c92c15e052" />
+<img width="1920" height="1080" alt="SuccessfulProject" src="https://github.com/user-attachments/assets/c45b0eae-0f96-4d83-9191-cb215063baa1" />
+
+
+
